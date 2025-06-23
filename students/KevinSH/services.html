@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Blackwing Translations</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      table {
+        width:100%;
+        border-collapse: collapse;
+        margin-top: 1.5rem;
+      }
+
+      th, td {
+        border: 1px solid #ccc;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      th {
+        background-color: #2c3e50;
+        color: white;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f4f4f4;
+      }
+
+      caption {
+        caption-side:top;
+        font-size: 1.4rem;
+        font-weight:bold;
+        margin-bottom: 0.5rem;
+      }
+
+      @media (max-width: 600px) {
+        table, thead, tbody, th, td, tr {
+          display: block;
+        }
+
+        th {
+          background-color: #333;
+          color: #fff;
+          text-align:left;
+        }
+
+        td {
+          text-align: left;
+          border-top: none;
+        }
+
+        td::before {
+          content: attr(data-label);
+          font-weight: bold;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body class="light-theme">
+    <header>
+      <h1>Blackwing Translations</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="connections.html">Connections</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <seciton>
+        <h2>Our Services Compared</h2>
+        <table>
+          <caption>Why Choose Blackwing Translations?</caption>
+          <thread>
+            <tr>
+              <th>Service Feature</th>
+              <th>Blackwing Translations</th>
+              <th>Typical Competitors</th>
+            </tr>
+          </thread>
+          <tbody>
+            <tr>
+              <td data-label="Service Feature">Bilingual Legal Knowledge</td>
+              <td data-label="Blackwing Translations">Yes</td>
+              <td data-label="Typical Competitors">No or Limited</td>
+            </tr>
+            <tr>
+              <td data-label="Service Feature">Community Engagement</td>
+              <td data-label="Blackwing Translations">High (Nonprofits, Legal Aid, Training Orgs)</td>
+              <td data-label="Typical Competitors"> Rare</td>
+            </tr>
+            <tr>
+              <td data-label="Service Feature">Cultural Awareness</td>
+              <td data-label="Blackwing Translations">Deeply Rooted in Immigrant Experience</td>
+              <td data-label="Typical Competitors">Generic/Automated</td>
+            </tr>
+            <tr>
+              <td data-label="Service Feature">Language Pairs</td>
+              <td data-label="Blackwing Translations">English (Professional), Spanish (Professional), Italian (Conversational), Russian (Conversational)</td>
+              <td data-label="Typical Competitors">Spanish Only (Typically)</td>
+            </tr>
+            <tr>
+              <td data-label="Service Feature">Personalized Service</td>
+              <td data-label="Blackwing Translations">1-on-1 Consultation</td>
+              <td data-label="Typical Competitors">Automated Forms</td>
+            </tr>
+            <tr>
+              <td data-label="Service Feature">Turnaround Time</td>
+              <td data-label="Blackwing Translations">24-72 Hours (Flexible)</td>
+              <td data-label="Typical Competitors">Fixed or Slower</td>
+            </tr>
+          </tbody>
+        </table>
+      </seciton>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Blackwing Translations</p>
+      <button class="btn" id="themeToggle">Toggle Theme</button>
+      </footer>
+      <script src="app.js"></script>
+  </body>
+</html>

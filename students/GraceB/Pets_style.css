@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+ background-color: lavender;
+ }
+ 
+h1 {
+ color: midnightblue;
+ text-align: center;
+ font-size: 50px;
+}
+
+p {
+ color: midnightblue;
+ text-align: center;
+ font-family: verdana;
+ font-size: 30px;
+}
+table {
+ color: midnightblue;
+ font-family: verdana;
+ font-size: 30px;
+}

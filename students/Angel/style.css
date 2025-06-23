@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+  body {
+    background-color: lightblue;
+    }
+    
+   h1 {
+    color: white;
+    text-align: center;
+   }
+   
+   p {
+    font-family: courier;
+    font-size: 20px;
+   }
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; /* or any value less than 100% */
+}

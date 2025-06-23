@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Page 2</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicker Game</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<body style="background-color: lightgreen;">
+  <h1>Welcome to Page 2!</h1>
+
+
+  <p><a href="index.html">Go back to home</a></p>
+
+<p>
+  <a href="https://www.youtube.com/watch?v=bWu5X4jcvv8" target="_blank">
+    BEEG YOSHI
+  </a>
+</p>
+
+
+<h2>LeBron vs. Michael Jordan Career Stats</h2>
+<table border="1">
+  <tr>
+    <th>Stat</th>
+    <th>LeBron James</th>
+    <th>Michael Jordan</th>
+  </tr>
+  <tr>
+    <td>Points Per Game</td>
+    <td>27.1</td>
+    <td>30.1</td>
+  </tr>
+  <tr>
+    <td>Rebounds Per Game</td>
+    <td>7.5</td>
+    <td>6.2</td>
+  </tr>
+  <tr>
+    <td>Assists Per Game</td>
+    <td>7.4</td>
+    <td>5.3</td>
+  </tr>
+  <tr>
+    <td>Steals Per Game</td>
+    <td>1.5</td>
+    <td>2.3</td>
+  </tr>
+  <tr>
+    <td>Field Goal %</td>
+    <td>50.5%</td>
+    <td>49.7%</td>
+  </tr>
+  <tr>
+    <td>3-Point %</td>
+    <td>34.7%</td>
+    <td>32.7%</td>
+  </tr>
+  <tr>
+    <td>Championships</td>
+    <td>4</td>
+    <td>6</td>
+  </tr>
+</table>
+
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHo5ZmZ5ZWR0aXg3dnkyN2diMjAxemk4ZWNrcXliOXFzcXJjYTNsYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3otPoBgzJtqA75eymA/giphy.gif" 
+     alt="NBA Dunk GIF" 
+     width="400">
+
+ <div id="clickerContainer">
+    <h1>Clicker Game</h1>
+    <p>Money: <span id="money">0</span></p>
+    <!-- Replace the button with an image of a cookie -->
+    <button id="clickButton" onclick="clickCookie()">Click Me!</button>
+</div>
+  
+  <div id="shopContainer">
+    <h2>Shop</h2>
+    <p>Money per Click: <span id="mpc">1</span></p>
+    <button onclick="upgradeMPC()">Upgrade MPC (Cost: <span id="mpcCost">10</span> money)</button>
+    <p>Money per Second: <span id="mps">0</span></p>
+    <button onclick="buyMPS()">Buy MPS (Cost: <span id="mpsCost">50</span> money)</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+

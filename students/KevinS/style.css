@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+ background-color: lightgray;
+ }
+ 
+h1 {
+ color: white;
+ text-align: center;
+}
+
+p {
+ font-family: courier;
+ font-size: 20px;
+}
+table {
+  background-color: white;
+}

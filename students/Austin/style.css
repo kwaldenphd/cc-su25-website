@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+ background-color: navy;
+ color: gold;
+ text-align:center;
+ }
+ 
+h1 {
+ color: gold;
+ text-align: center;
+ font-size: 30px;
+}
+
+p {
+ font-family: courier;
+ font-size: 17px;
+ color: white;
+}

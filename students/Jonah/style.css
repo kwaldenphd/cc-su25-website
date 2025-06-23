@@ -1,0 +1,19 @@
+body {
+ background-color: white;
+ }
+ 
+h1 {
+ color: green;
+ text-align: center;
+}
+
+h2 {
+ color: green;
+ text-align: center;
+}
+
+p {
+ color: red;
+ font-family: courier;
+ font-size: 20px;
+}

@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: white;
+  font-family: courier;
+  font-size: 20px;
+}
+
+h1 {
+  color: orange;
+  text-align:center;
+}
+
+p{
+  font-family: courier
+  font-size: 20px;
+  text-align:center;
+  color: red;
+}
+
+a{
+  font-family: courier;
+  font-size: 20px;
+  text-align:center;
+  color: red;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align:center;
+  width: 25%;
+}
